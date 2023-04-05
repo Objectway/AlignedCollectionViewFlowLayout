@@ -1,16 +1,16 @@
 PODS:
-  - AlignedCollectionViewFlowLayout (0.1.0)
+  - AlignedCollectionViewFlowLayout (1.2.0.1)
 
 DEPENDENCIES:
   - AlignedCollectionViewFlowLayout (from `../`)
 
 EXTERNAL SOURCES:
   AlignedCollectionViewFlowLayout:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  AlignedCollectionViewFlowLayout: b4ed93a0082dd2b595304d93cf8d62a82cb0f7da
+  AlignedCollectionViewFlowLayout: 95b9d6979830484b4da13605e508fb68da2e2357
 
 PODFILE CHECKSUM: 16442ef7782a2fd0ffb8052cfb7501decb8f5d9c
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.11.3

@@ -1,22 +1,24 @@
 {
   "name": "AlignedCollectionViewFlowLayout",
-  "version": "0.1.0",
-  "summary": "A short description of AlignedCollectionViewFlowLayout.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/web@mischa-hildebrand.de/AlignedCollectionViewFlowLayout",
+  "version": "1.2.0.1",
+  "summary": "A collection view layout that gives you control over the horizontal and vertical alignment of the cells.",
+  "description": "A collection view layout that gives you control over the horizontal and vertical cell alignment.\n                        You can use it to align cells like words in a left- or right-aligned paragraph and\n                        to specify how the cells are vertically aligned within their rows.\n                        Other than that, the layout behaves exactly like Apple's UICollectionViewFlowLayout.",
+  "homepage": "https://github.com/mischa-hildebrand/AlignedCollectionViewFlowLayout",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "web@mischa-hildebrand.de": "mischa.hildebrand@intive-kupferwerk.com"
+    "Mischa Hildebrand": "web@mischa-hildebrand.de"
   },
   "source": {
-    "git": "https://github.com/web@mischa-hildebrand.de/AlignedCollectionViewFlowLayout.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Objectway/AlignedCollectionViewFlowLayout.git",
+    "tag": "1.2.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AlignedCollectionViewFlowLayout/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "AlignedCollectionViewFlowLayout/Classes/**/*",
+  "swift_version": "5.0"
 }
