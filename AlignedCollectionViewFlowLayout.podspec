@@ -26,10 +26,11 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mischa Hildebrand' => 'web@mischa-hildebrand.de' }
-  s.source           = { :git => 'https://github.com/Objectway/AlignedCollectionViewFlowLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Objectway/AlignedCollectionViewFlowLayout.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'AlignedCollectionViewFlowLayout/Classes/**/*'
 
